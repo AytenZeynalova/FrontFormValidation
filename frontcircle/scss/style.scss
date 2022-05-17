@@ -1,0 +1,29 @@
+ 
+
+  
+ #blackbox{
+    margin: 0 auto;
+    width: 700px;
+    height: 750px;
+    background-color: black;
+    position: relative;
+
+    .yellowcircle{
+        width: 90px;
+        height: 90px;
+        background-color: rgb(255, 217, 4);
+        border-radius: 50%;
+        box-sizing: border-box;
+        position: absolute;
+    }
+    .littlecircle{
+        
+        width: 50px;
+        height: 50px;
+        background-color: yellow;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 10;
+    }
+}
+
